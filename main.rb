@@ -17,7 +17,6 @@ def pick_featureA(list)
     engineers_name = list
     if  engineers_name.include?(' ')
         engineers_name.gsub!(/ / , '.') 
-
     end	
     puts engineers_name
 end
