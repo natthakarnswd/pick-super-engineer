@@ -12,7 +12,6 @@ def random_pick
   pick_fetureC(ARGV)
 end
 
-
 def pick_featureA(list)
     engineers_name = list
     if  engineers_name.include?(' ')
@@ -20,7 +19,6 @@ def pick_featureA(list)
     end	
     puts engineers_name
 end
-
 
 def pick_FeatureB(name)
   sp_n = name.split(".") #split name == " "
