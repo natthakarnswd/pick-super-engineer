@@ -7,6 +7,7 @@ def random_pick
   end
   name = eng_list.shuffle.sample
   puts name #print one name of engineerlist by random
+  pick_featureA(name)
   pick_FeatureB(name)
   pick_fetureC(eng_list)
 end
@@ -23,7 +24,7 @@ end
 
 
 def pick_FeatureB(name)
-  sp_n = name.split(" ") #split name == " "
+  sp_n = name.split(".") #split name == " "
   sp_c =  sp_n[1].split("") #split character
   sFB = sp_n[0] + " " + sp_c[0] + "..."
   puts sFB
