@@ -7,6 +7,7 @@ def random_pick
   end
   name = eng_list.shuffle.sample
   puts name #print one name of engineerlist by random
+  pick_featureA(name)
   pick_FeatureB(name)
   pick_fetureC(eng_list)
 end
